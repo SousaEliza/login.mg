@@ -1,12 +1,11 @@
 body {
   background-color: rgba(55, 55, 70, 0.74);
   padding: 13% 35%;
-
+  background-image: linear-gradient(135deg, rgba(55, 55, 70, 0.74) 55%, rgb(151, 42, 165));
 }
 
 main {
   background: rgb(172, 174, 194);
-  width: 350px;
   border-radius: 3%;
   height: 300px;
   justify-items: center;
@@ -22,15 +21,17 @@ main {
 }
 
 h1 {
+  color: rgb(151, 42, 165);
   font-family: "Tourney", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+  "wdth" 100;
+  font-weight: 600;
 }
 
 #submit-button {
+  background-image: linear-gradient(135deg, rgb(151, 42, 165), rgba(55, 55, 70, 0.74) 55%);
   border: none;
   border-radius: 3.5%;
   font-weight: 600;
@@ -43,10 +44,11 @@ h1 {
 }
 
 .input {
-  width: 300px;
+  border: none;
+  box-shadow:  0 1px rgb(121, 120, 120);
   margin: 10px 5px;
   padding: 8px 6px;
-  border: none;
+  width: 300px;
 }
 
 a {
