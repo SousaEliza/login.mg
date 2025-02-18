@@ -8,3 +8,11 @@ main {
   border-radius: 3%;
   height: 300px;
 }
+
+#submit-button {
+  border: none;
+  border-radius: 3.5%;
+  height: 40px;
+  line-height: 20px;
+  font-weight: 600;
+}
