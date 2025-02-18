@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(55, 55, 70, 0.74);
+  padding: 13% 35%;
+  background-image: linear-gradient(135deg, rgba(55, 55, 70, 0.74) 55%, rgb(151, 42, 165));
+}
+
+main {
+  background: rgb(172, 174, 194);
+  border-radius: 3%;
+  height: 300px;
+  justify-items: center;
+  padding: 10px 5px 20px 5px;
+  width: 350px;
+}
+
+#login-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+h1 {
+  color: rgb(151, 42, 165);
+  font-family: "Tourney", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+  font-weight: 600;
+}
+
+#submit-button {
+  background-image: linear-gradient(135deg, rgb(151, 42, 165), rgba(55, 55, 70, 0.74) 55%);
+  border: none;
+  border-radius: 3.5%;
+  font-weight: 600;
+  height: 40px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 8px;
+  width: 310px;
+}
+
+.input {
+  border: none;
+  box-shadow:  0 1px rgb(121, 120, 120);
+  margin: 10px 5px;
+  padding: 8px 6px;
+  width: 300px;
+}
+
+a {
+  color: blueviolet;
+}
