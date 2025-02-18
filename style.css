@@ -24,9 +24,12 @@ main {
 #submit-button {
   border: none;
   border-radius: 3.5%;
+  font-weight: 600;
   height: 40px;
   line-height: 20px;
-  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 8px;
   width: 310px;
 }
 
