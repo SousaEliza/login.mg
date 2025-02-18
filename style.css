@@ -27,6 +27,14 @@ main {
   height: 40px;
   line-height: 20px;
   font-weight: 600;
+  width: 310px;
+}
+
+.input {
+  width: 300px;
+  margin: 10px 5px;
+  padding: 8px 6px;
+  border: none;
 }
 
 a {
