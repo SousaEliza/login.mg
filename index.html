@@ -2,22 +2,82 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link rel="stylesheet" href="src/presentation/styles/style.css">
+    <script src="https://kit.fontawesome.com/57bccf1895.js" crossorigin="anonymous"></script>
+    <title>MatrixGate Login</title>
   </head>
   <body>
-    <main id="main">
-      <div id="login-area">
-        <h1>
-          MatrixGate🎮
-        </h1>
-        <input type="email" name="email" id="email-address" class="input" placeholder="Endereço de e-mail">
-        <input type="password" name="password" id="password" class="input" placeholder="Senha">
-        <button type="submit" id="submit-button">Entrar</button>
-        <a href="blank" id="link">Esqueci a senha</a>
+    <main id="main">      <div class="login-invite">
+        <h1>Wellcome back!!</h1>
+        <img id="initial-control" src="assets/images/gameControlImage.png" alt="Controle de video game">
+      </div>
+      <div id="post-click" class="content">        <div class="login-salutation">
+          <h3>Go ahead and let's play</h3>
+          <img id="initial-control" src="assets/images/gameControlImage.png" alt="Controle de video game">
+        </div>
+        <div class="input">
+          <h1>
+            MatrixGate🎮
+          </h1>
+          <label class="label-input" for="email">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="E-mail address here...">
+          </label>
+          <label class="label-input" for="password">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" id="pwd" placeholder="Your password here...">
+          </label>
+          <span id="errorMsg"></span>
+          <button type="submit" class="submit-button" id="log-in-btn">Log In</button>
+          <div class="links">
+            <a href="blank">Forgot password?</a>
+            <a id="link-signin">Sign In</a>
+          </div>
+        </div>
+      </div>
+      <div id="before-click" class="content hidden">        <div class="login-salutation">
+          <h3>Let's get started</h3>
+          <img id="initial-control" src="assets/images/gameControlImage.png" alt="Controle de video game">
+        </div>
+        <div class="input">
+          <h1>
+            MatrixGate🎮
+          </h1>
+          <label class="label-input" for="user">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="user" id="user" placeholder="Tell us your name...">
+          </label>
+          <label class="label-input" for="signin-email">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="email" id="signin-email" placeholder="E-mail address here...">
+          </label>
+          <label class="label-input" for="create-pwd">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" id="create-pwd" placeholder="Create a strong password...">
+          </label>
+          <ul id="password-criteria" class="hidden">
+            <li id="length">Mínimo de 8 caracteres</li>
+            <li id="uppercase">Pelo menos uma letra maiúscula</li>
+            <li id="lowercase">Pelo menos uma letra minúscula</li>
+            <li id="number">Pelo menos um número</li>
+            <li id="special">Pelo menos um caractere especial ($*&@#)</li>
+          </ul>
+          <label class="label-input" for="confirm-pwd">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" id="confirm-pwd" placeholder="Confirm your password...">
+          </label>
+          <span id="errorMsgII"></span>
+          <button type="submit" class="submit-button" id="sign-up-btn">Sign up</button>          
+          </div>
+        </div>
       </div>
     </main>
+    <div id="success-modal" class="modal hidden">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <p>Account created!</p>
+      </div>
+    </div>    <footer>Made by @ElizaSousa</footer>
   </body>
+  <script type="module" src="src/presentation/scripts/LoginController.js"></script>
 </html>

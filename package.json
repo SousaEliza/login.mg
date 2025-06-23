@@ -1,0 +1,35 @@
+{
+  "name": "matrixgate-login",
+  "version": "1.0.0",
+  "description": "A modern gaming-themed login and registration system with layered architecture",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server . -p 8080 -o",
+    "build": "echo 'Build process - Add your build commands here'",
+    "test": "echo 'Test process - Add your test commands here'",
+    "lint": "echo 'Lint process - Add your linting commands here'",
+    "start": "npx http-server . -p 3000"
+  },
+  "keywords": [
+    "login",
+    "authentication",
+    "gaming",
+    "frontend",
+    "javascript",
+    "layered-architecture"
+  ],
+  "author": "ElizaSousa",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizaSousa/matrixgate-login.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElizaSousa/matrixgate-login/issues"
+  },
+  "homepage": "https://github.com/ElizaSousa/matrixgate-login#readme"
+}
