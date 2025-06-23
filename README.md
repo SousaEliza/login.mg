@@ -32,6 +32,7 @@ login.mg/
 ## 🎯 MSC Layer Responsibilities
 
 ### 1. **Model Layer** (`src/models/`)
+
 - **Purpose**: Defines data structures, validation rules, and data access logic
 - **Components**:
   - `User.js`: User entity with JSON serialization methods
@@ -44,6 +45,7 @@ login.mg/
   - Business data logic
 
 ### 2. **Service Layer** (`src/services/`)
+
 - **Purpose**: Contains business logic and application services
 - **Components**:
   - `AuthenticationService.js`: Authentication workflows and user management
@@ -55,6 +57,7 @@ login.mg/
   - Cross-cutting concerns
 
 ### 3. **Controller Layer** (`src/controllers/`)
+
 - **Purpose**: Handles user interactions and coordinates between services and models
 - **Components**:
   - `LoginController.js`: Manages UI events, form handling, and user interactions

@@ -1,9 +1,6 @@
 import { AuthenticationService } from "../services/AuthenticationService.js";
 import { UIService } from "../services/UIService.js";
-import {
-  EmailValidator,
-  PasswordValidator,
-} from "../models/FormValidators.js";
+import { EmailValidator, PasswordValidator } from "../models/FormValidators.js";
 
 /**
  * Login Controller
